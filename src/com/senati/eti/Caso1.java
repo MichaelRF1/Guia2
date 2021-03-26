@@ -13,7 +13,7 @@ public class Caso1 {
 		if (edad >= 18)
 			System.out.println("Mayor de edad");
 		else
-			System.out.println("Mayor de edad");
+			System.out.println("Menor de edad");
 			
 
 	}

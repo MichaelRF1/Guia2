@@ -2,22 +2,23 @@ package com.senati.eti;
 
 import java.util.Scanner;
 
-public class Caso1 {
+public class Caso2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Ingrese numero...: ");
+		System.out.print("Ingrese numeró.....: ");
 		int n = sc.nextInt();
 		
-		String mensaje = "Numero es par";
+		String mensaje = "Número es par";
 		
 		if (n % 2 != 0)
-			mensaje = "Numero es par";
+			mensaje = "Número es impar";
 		
-		System.out.println("\n======= Resultados =======");
+		System.out.println("\n=========== Resultados ==========");
 		System.out.println("Mensaje...: " + mensaje);
-
+		
+		
 	}
 
 }
